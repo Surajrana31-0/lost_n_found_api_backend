@@ -1,5 +1,5 @@
 const multer = require("multer");
-const maxSize = 2 * 1024 * 1024; // 2MB for images
+const maxSize = 5 * 1024 * 1024; // 2MB for images
 const maxVideoSize = 50 * 1024 * 1024; // 50MB for videos
 const path = require("path");
 
